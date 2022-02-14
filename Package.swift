@@ -14,7 +14,7 @@ let package = Package(
         // 💧 A server-side Swift web framework.
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
         // ⌚️Swift cron scheduler based on NIO
-        .package(url: "https://github.com/Higher08/NIOCronScheduler.git", from:"3.0"),
+        .package(url: "https://github.com/Higher08/NIOCronScheduler.git", from: "3.0"),
     ],
     targets: [
         .target(name: "VaporCron", dependencies: [
